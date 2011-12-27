@@ -4,4 +4,12 @@
 	<fx:Declarations>
 		<!-- 非ビジュアルエレメント (サービス、値オブジェクトなど) をここに配置 -->
 	</fx:Declarations>
+	
+	<fx:Style>
+		@namespace s "library://ns.adobe.com/flex/spark";
+		s|TabbedViewNavigator
+		{
+			skinClass: ClassReference("skins.TabbedViewNavigatorSkin");
+		}
+	</fx:Style>
 </s:ViewNavigatorApplication>
